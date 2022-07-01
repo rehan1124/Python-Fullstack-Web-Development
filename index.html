@@ -3,24 +3,31 @@
   <head>
     <title>Hello 🙋‍♂️ I am Rehan</title>
     <!-- CSS style tags -->
-    <!-- <style>
+    <style>
       body {
         background-color: lightcyan;
-        color: darkslategrey;
+        /* color: darkslategrey; */
       }
-    </style> -->
+    </style>
+    <link rel="shortcut icon" href="images/favicons/dev.jpg" type="image/jpg" />
   </head>
   <body>
     <!-- Heading-1 -->
+    <div id="page-top">
+      <a href="#page-bottom">Scroll to the bottom of page</a>
+    </div>
     <h1>My first HTML 101 file 👏💻</h1>
     <h2>Getting started with Python Full Stack Web-development</h2>
     <!-- Paragraphs -->
     <p>
       <!-- Anchor tags -->
       Opens link in same tab
+      <br />
+      Contact me on >>>
       <!-- Opens linked page on same window -->
       <a href="https://www.linkedin.com/in/syed-rehan-9a287a5b/">
-        <b>LinkedIn</b>
+        <br />
+        <b>@LinkedIn</b>
       </a>
     </p>
     <p>
@@ -102,10 +109,78 @@
     </ol>
     <hr />
     <!-- JavaScript content below -->
-    <h3>Let's work on JavaScript</h3>
+    <!-- <h3>Let's work on JavaScript</h3>
     <script>
       alert("Hello there 👋");
     </script>
-    <script src="scripts/misc.js"></script>
+    <script src="scripts/misc.js"></script> -->
+    <!-- u-tag might get deprecated, use span-tag with text-decoration: "underline" -->
+    <h3>Underline with span tag and text-decoration: "underline"</h3>
+    <span style="text-decoration: underline">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </span>
+    <hr />
+    <!-- Using colspan and rowspan -->
+    <h3>About tables:</h3>
+    <table id="skills" border="1" width="25%" style="text-align: center">
+      <tr>
+        <th>Functional</th>
+        <th>Technical</th>
+      </tr>
+      <tr>
+        <td>Manual Testing</td>
+        <td>Automation Testing</td>
+      </tr>
+      <tr>
+        <td>Test Management</td>
+        <td>Selenium</td>
+      </tr>
+      <tr>
+        <td>Test Strategy</td>
+        <td>API Testing</td>
+      </tr>
+      <tr>
+        <td>Defect reporting</td>
+        <td>Python</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>Merging cells and rows</h3>
+    <table border="1" width="50%">
+      <tr>
+        <td colspan="3">1,1</td>
+      </tr>
+      <tr>
+        <td rowspan="2">2,1</td>
+        <td colspan="2">2,2</td>
+      </tr>
+      <tr>
+        <td>3,1</td>
+        <td>3,2</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>Table & Cell widths</h3>
+    <table border="1" width="50%" style="text-align: center">
+      <tr>
+        <th colspan="2">Welcome to my web-site</th>
+      </tr>
+      <tr>
+        <td rowspan="2" width="30%">
+          <h3>Navigation</h3>
+        </td>
+        <td rowspan="2">
+          <h3>Content</h3>
+        </td>
+      </tr>
+    </table>
+    <!-- ################################################# -->
+    <!-- ################################################# -->
+    <!-- ################################################# -->
+    <!-- ################################################# -->
+    <!-- Let this be at the bottom always. Add code above. -->
+    <div id="page-bottom">
+      <a href="#page-top">Back to top</a>
+    </div>
   </body>
 </html>
