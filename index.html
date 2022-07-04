@@ -244,40 +244,76 @@
     </form>
     <hr />
     <form>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Enter your name"
-        value="SR"
-      />
-      <br />
-      <input
-        type="password"
-        name="password"
-        id="password"
-        placeholder="Enter password"
-      />
-      <br />
-      <textarea
-        name="address"
-        id="address"
-        cols="30"
-        rows="10"
-        placeholder="Enter you address"
-      ></textarea>
+      <!-- NAME -->
+      <div>
+        <input
+          required
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          value="SR"
+        />
+      </div>
+      <!-- PASSWORD -->
+      <div>
+        <input
+          required
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter password"
+        />
+      </div>
+      <!-- EMAIL -->
+      <div>
+        <input
+          required
+          type="email"
+          name="email"
+          placeholder="Enter email address"
+        />
+      </div>
+      <!-- ADDRESS -->
+      <div>
+        <textarea
+          name="address"
+          id="address"
+          cols="30"
+          rows="10"
+          placeholder="Enter you address"
+        ></textarea>
+      </div>
+      <!-- SKILLS -->
       <div>
         <select name="skills">
+          <option disabled>- Choose any one -</option>
           <option value="html">HTML</option>
           <option value="css">CSS</option>
           <option value="js">JavaScript</option>
+          <option selected disabled value="default-value">
+            Select your skill
+          </option>
         </select>
       </div>
-      <br />
-      <button type="submit">Click me 😶</button>
-      <button type="reset">Reset</button>
+      <!-- SUBMIT & RESET -->
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
     </form>
-
+    <hr />
+    <!-- EMBDED VIDEOS and IFRAMES -->
+    <div>
+      <h3>Embedding with Iframes</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GADlWyHaMmI"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
     <!-- ################################################# -->
     <!-- ################################################# -->
     <!-- ################################################# -->
