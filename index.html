@@ -187,6 +187,97 @@
       pariatur doloribus enim, veritatis deserunt ipsum consectetur! Id vitae
       optio quam adipisci nemo laboriosam culpa facere ipsam corrupti dolores.
     </div>
+    <hr />
+    <h3>HTML classes in CSS</h3>
+    <style>
+      /* Define class inside style-tag */
+      .padding1 {
+        padding: 40px;
+        color: rgb(3, 3, 31);
+        background-color: rgb(209, 198, 198);
+      }
+      .upper-case {
+        text-transform: uppercase;
+      }
+      #lower-case {
+        text-transform: lowercase;
+        border: 15px solid green;
+        font-style: italic;
+      }
+    </style>
+    <div class="upper-case">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex hic
+      eius eos asperiores nostrum commodi alias quasi, laudantium reprehenderit,
+      sint, perspiciatis similique debitis. Excepturi est consequuntur
+      temporibus corporis itaque!
+    </div>
+    <div class="padding1" id="lower-case">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex hic
+      eius eos asperiores nostrum commodi alias quasi, laudantium reprehenderit,
+      sint, perspiciatis similique debitis. Excepturi est consequuntur
+      temporibus corporis itaque!
+    </div>
+    <hr />
+    <h3>Aboute pre and code tag</h3>
+    <!-- pre-tags is white-space sensitive -->
+    <pre>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Aliquam necessitatibus culpa delectus modi magni, repellendus provident optio,
+      deleniti perferendis sed       corporis velit qui at odit obcaecati,
+      harum    architecto  assumenda cumque.
+    </pre>
+    <p>
+      <!-- code is not white-space sensitive -->
+      <code> Lorem ipsum dolor sit, </code>
+      amet consectetur adipisicing elit. Ipsam possimus sed molestiae ad sunt
+      perferendis accusantium dicta distinctio ea! Sequi officiis ratione quod
+      voluptatibus fuga nulla, eum optio quisquam cumque.
+    </p>
+    <hr />
+    <!-- Getting started with forms -->
+    <h2>Forms</h2>
+    <form method="GET" action="images/index.html">
+      <input type="text" />
+      <br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <button type="submit">Submit the form</button>
+    </form>
+    <hr />
+    <form>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+        value="SR"
+      />
+      <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter password"
+      />
+      <br />
+      <textarea
+        name="address"
+        id="address"
+        cols="30"
+        rows="10"
+        placeholder="Enter you address"
+      ></textarea>
+      <div>
+        <select name="skills">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+        </select>
+      </div>
+      <br />
+      <button type="submit">Click me 😶</button>
+      <button type="reset">Reset</button>
+    </form>
+
     <!-- ################################################# -->
     <!-- ################################################# -->
     <!-- ################################################# -->
@@ -194,6 +285,7 @@
     <!-- Let this be at the bottom always. Add code above. -->
     <div id="page-bottom">
       <a href="#page-top">Back to top</a>
+      <p>&copy; Copyright, Syed Rehan</p>
     </div>
   </body>
 </html>
