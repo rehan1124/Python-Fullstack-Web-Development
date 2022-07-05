@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML🕸201 Project</title>
+    <style>
+      .remove-underline {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="2">
+          <h1>Welcome to my portfolio 🎦</h1>
+        </th>
+      </tr>
+      <tr>
+        <td width="20%">
+          <a
+            href="https://www.linkedin.com/in/syed-rehan-9a287a5b/"
+            target="_blank"
+            class="remove-underline"
+          >
+            Let's connect over LinkedIn
+          </a>
+        </td>
+        <td width="80%">
+          <img src="images/husky2.jpg" alt="Husky" width="350" height="400" />
+        </td>
+      </tr>
+      <tr>
+        <td width="20%">
+          <a
+            href="https://web.whatsapp.com/"
+            target="_blank"
+            class="remove-underline"
+            >OR whatsapp me 📱
+          </a>
+        </td>
+        <td width="80%">
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/apXhraxPef8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            corporis culpa dolorem officiis repellat laudantium quaerat ut
+            voluptatem iste quas. Deserunt molestias ratione libero minima
+            debitis ipsum, neque officia illo.
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">&copy; Copyright 2022, Syed Rehan</td>
+      </tr>
+    </table>
+  </body>
+</html>
