@@ -4,8 +4,11 @@
     <title>CSS-101 💻</title>
     <!-- Internal CSS -->
     <style>
+      /* CSS comments */
       body {
         background-color: lightblue;
+        background-image: url("images/bg-photo1.jpg");
+        background-size: cover;
       }
       .bold-and-center {
         text-align: center;
@@ -22,6 +25,37 @@
       }
       p strong {
         color: blueviolet;
+        font-size: 20px;
+      }
+      a {
+        color: black;
+      }
+      a:hover {
+        color: blueviolet;
+      }
+      a:active {
+        color: cyan;
+      }
+      a:visited {
+        color: tomato;
+      }
+      div.red-border {
+        border-width: 5px;
+        border-style: dashed;
+        border-color: red;
+        border: 1px solid black;
+      }
+      div.radial-border {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px 30% 5px 30%;
+        border: 10px solid red;
+      }
+      .inline {
+        display: inline-block;
+        border: 2px solid red;
+        width: 200px;
+        height: 200px;
       }
     </style>
   </head>
@@ -66,5 +100,33 @@
       </p>
       <strong>Strong-ABC-XYZ</strong>
     </div>
+    <div>
+      <h3>Links-Hrefs</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <a href="">
+          Tempore recusandae obcaecati quam molestiae, placeat laudantium sunt
+          omnis unde amet atque, animi, qui in tempora doloribus beatae culpa
+          est ex inventore.
+        </a>
+      </p>
+    </div>
+    <!-- About borders -->
+    <h3>About borders</h3>
+    <div class="red-border">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint delectus
+      consectetur quaerat voluptatum. Unde animi magni sed ut repudiandae
+      molestias alias, aspernatur similique nemo modi consequatur sint tempore
+      laborum voluptatibus?
+    </div>
+    <div class="radial-border">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint delectus
+      consectetur quaerat voluptatum. Unde animi magni sed ut repudiandae
+      molestias alias, aspernatur similique nemo modi consequatur sint tempore
+      laborum voluptatibus?
+    </div>
+    <hr />
+    <div class="inline">This is 1st block</div>
+    <div class="inline">This is 2nd block</div>
   </body>
 </html>
